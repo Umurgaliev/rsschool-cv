@@ -1,46 +1,62 @@
-html,
 body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    box-sizing: border-box;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-A:visited{
-    color: blue
-}
-.rsschool-cv{
-    padding-bottom: 0.3em;
-    font-size: 2em;
-    border-bottom: 1px solid #eaecef;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 600;
-    line-height: 1.25;
-    font-size: 32px;
-    font-weight: 600;
-}
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-left: 0%;
+        margin-top: 5%;
 
+}
+img{
+    align-content: center;
+}
 h1{
-    padding-bottom: 0.3em;
-    font-size: 1.5em;
-    border-bottom: 1px solid #eaecef;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 600;
-    line-height: 1.25;
+    font-size: 40px;
 }
-
-h2{
-    border-bottom: 1px solid #eaecef;
+h3{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+h4{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+h5{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+h6{
+    font-size: 1.5em;
     text-decoration: underline;
 }
 
-h3{
-  font-size: 1.5em;  
-}
-
 span{
- font-weight: 600;
+    font-weight: 600;
+}
+p{
+    font-weight: 500;
+    font-size: 17px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0;
+}
+li{
+    font-weight: 500;
+    font-size: 17px;
+}
+#leftcol{
+    width: 20%;
+    min-height: 150px;
+    background: white;
+    float: left;
+    margin-left: 20%;
+}
+#rightcol{
+    width: 10%;
+    min-height: 150px;
+    background: #c00;   
+    margin-left: 60%;
 }
